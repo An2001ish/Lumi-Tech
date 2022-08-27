@@ -21,6 +21,10 @@ nav
 {
     background-color: goldenrod;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
 }
 
 nav a
@@ -213,4 +217,21 @@ footer a:hover
 .cartandlist:hover
 {
     cursor: pointer;
+}
+
+.home
+{
+    border-right: 2px solid;
+    border-color: black;
+}
+
+.productss
+{
+    border-right: 2px solid;
+    border-color: black;
+}
+.support
+{
+    border-right: 2px solid;
+    border-color: black;
 }
