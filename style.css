@@ -204,6 +204,11 @@ footer a:hover
     width: 200px;
 }
 
+.signin:hover
+{
+    cursor: pointer;
+}
+
 .cartandlist
 {
     position: relative;
@@ -234,4 +239,19 @@ footer a:hover
 {
     border-right: 2px solid;
     border-color: black;
+}
+
+.home:hover,.productss:hover,.support:hover
+{
+    background-color: rgb(175, 128, 9);
+}
+
+.lumitech
+{
+    color: goldenrod;
+    text-decoration: none;
+}
+.lumitech:hover
+{
+    text-shadow: 0px 0px 30px cyan;
 }
