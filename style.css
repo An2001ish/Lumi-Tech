@@ -255,3 +255,93 @@ footer a:hover
 {
     text-shadow: 0px 0px 30px cyan;
 }
+
+.whole
+{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding-bottom: 22rem;
+
+} 
+
+.rectangle
+{
+    border: 1px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    background-color:  rgb(151, 255, 255);
+    position: absolute;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px red;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle:hover
+{
+    box-shadow: 0 0 20px green;
+}
+
+.photo
+{
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.imgg
+{
+    border-radius: 5rem;
+    border: 5px solid whitesmoke;
+}
+
+.text
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Dancing Script;
+}
+
+.comma,.text,.comma2
+{
+    margin-top: 4rem;
+}
+
+.comma2
+{
+    margin-top: 13rem;
+}
+
+.comma,.comma2
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.comma
+{
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+.name
+{
+    position: absolute;
+    top: 17rem;
+    display: flex;
+    align-items:baseline;
+}
+
+.anish
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.monitorss
+{
+    margin-bottom: 5rem;
+}
